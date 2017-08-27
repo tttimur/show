@@ -1,0 +1,23 @@
+{
+  "name": "show",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siiiick/show.git"
+  },
+  "author": "Timur Fattahov <timur@56.digita> (timur.black)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siiiick/show/issues"
+  },
+  "homepage": "https://github.com/siiiick/show#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
