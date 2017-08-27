@@ -14,13 +14,15 @@ fs.readdir(dirname, (err, files) => {
 	}
 
 	files.forEach(file => {
-		videosList.push(file)
+		if (file != '.DS_Store') videosList.push(file)
 	})
 })
 
 
 app.get('/videos', (req, res) => {
-	res.send(videosList)
+	var js = JSON.stringify(videosList)
+	res.send(js)
+	console.log(js)
 })
 
 app.listen(3000)
